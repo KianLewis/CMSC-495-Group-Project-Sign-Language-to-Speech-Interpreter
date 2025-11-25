@@ -2,6 +2,7 @@
 
 This document provides instructions for installing, accessing, and managing the Sign-Language to Speech Interpreter Application. The purpose of this web application is to host the core service that interprets sign language gestures captured via a webcam and converts them into spoken speech.
 
+Any mention of "sl2speech" as a directory refers to the root directory containing the project files.
 
 ### Installation Instructions ###
 
@@ -110,4 +111,5 @@ This document provides instructions for installing, accessing, and managing the 
 
                     3. Create_WAV_Files.py
                         - Retrieves Gesture Map JSON file to create audio recordings using pyttsx3
+
                         - Recordings will be exported to Apache24/htdocs/TTSRecodings once complete
